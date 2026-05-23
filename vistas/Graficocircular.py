@@ -3,7 +3,7 @@ import plotly.express as px
 
 def ciudades_menor_mortalidad(df, divipola):
 
-    # 🔥 AGRUPAR POR COD_DANE (CLAVE)
+    # AGRUPAR POR COD_DANE 
     df_ciudad = df.groupby("COD_DANE").size().reset_index(name="MUERTES")
 
     # Unir con nombres

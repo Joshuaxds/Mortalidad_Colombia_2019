@@ -2,7 +2,7 @@ import streamlit as st
 
 from modulos.cargar import cargar_datos
 from vistas.diseño import configurar_diseño
-from vistas.principal import mostrar_app
+from vistas.paginaweb import mostrar_app
 
 st.set_page_config(
     page_title="Mortalidad en Colombia 2019",
