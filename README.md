@@ -54,6 +54,10 @@ pip install -r requirements.txt
 ---
 ## Despliegue en Azure App Service
 El despliegue en la nube se realizó utilizando la plataforma como servicio (PaaS) **Azure App Service**, lo cual permite que la aplicación esté disponible públicamente a través de Internet mediante una URL funcional de manera continua.
+# Actualización Azure
+git add .
+git commit -m "Trigger Azure deploy"
+git push
 
 ### Proceso de configuración e infraestructura
 * **Creación del Recurso**: En el portal de Azure, se configuró un nuevo *App Service* bajo una plataforma Linux y se seleccionó el entorno de ejecución nativo para **Python (versión 3.10 o superior)**.
