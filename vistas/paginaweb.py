@@ -226,12 +226,12 @@ def mostrar_app(df, divipola, causas):
             st.image(str(logo_path), width=1700)
         else:
             st.write("Logo DANE no disponible")
-    elif opcion == " datos":
+    elif opcion == " Datos":
         st.markdown(
             """
             <div style="display: flex; justify-content: center; margin-bottom: 20px;">
                 <div style="background-color: #ffe6e6; border: 2px solid #ff4d4d; border-radius: 14px; padding: 18px 28px; max-width: 900px; width: 100%;">
-                    <h1 style="text-align: center; color: #b30000; margin: 0;">datos</h1>
+                    <h1 style="text-align: center; color: #b30000; margin: 0;">Datos</h1>
                 </div>
             </div>
             """,
