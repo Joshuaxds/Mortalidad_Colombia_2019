@@ -70,7 +70,6 @@ streamlit run streamlit_app.py --server.port 8000 --server.address 0.0.0.0
 
 La aplicación web incorpora múltiples visualizaciones interactivas diseñadas para facilitar el análisis de la mortalidad desde diferentes perspectivas estadísticas, territoriales y demográficas. Cada gráfico transforma grandes volúmenes de datos en representaciones visuales comprensibles, permitiendo identificar tendencias, concentraciones y patrones relevantes dentro del comportamiento de las defunciones.
 
----
 
 ### Total de muertes por mes
 
@@ -79,10 +78,10 @@ El gráfico de líneas representa la variación mensual del total de muertes reg
 Desde una perspectiva analítica, este comportamiento demuestra que la mortalidad no mantiene una distribución uniforme durante el año, sino que presenta fluctuaciones temporales asociadas posiblemente a factores epidemiológicos, condiciones climáticas o variaciones sociales. El principal hallazgo de esta representación es la existencia de meses con una carga de mortalidad considerablemente mayor, lo que permite identificar periodos críticos dentro del análisis general.
 
 <p align="center">
-  <img src="imagenes/muertes_mes.png" width="850">
+  <img src="./Imagenes/muertes_mes.png" width="850"/>
 </p>
 
----
+
 
 ### Total de muertes por departamento
 
@@ -93,10 +92,9 @@ La representación espacial evidencia que la mortalidad no se distribuye de mane
 El hallazgo principal del mapa es la fuerte concentración territorial de las defunciones en determinados departamentos, lo cual evidencia desigualdades regionales relacionadas con densidad poblacional, urbanización y acceso a servicios de salud.
 
 <p align="center">
-  <img src="imagenes/mapa_departamentos.png" width="850">
+  <img src="Imagenes/mapas_departamento.png" width="850">
 </p>
 
----
 
 ### Ciudades más violentas
 
@@ -107,10 +105,10 @@ Dentro de los resultados, Santiago de Cali aparece como la ciudad con el mayor n
 La visualización permite concluir que la violencia no afecta de manera uniforme a las ciudades del país, sino que se concentra principalmente en determinados centros urbanos donde convergen problemáticas relacionadas con criminalidad, inseguridad y conflictividad social.
 
 <p align="center">
-  <img src="imagenes/ciudades_violentas.png" width="850">
+  <img src="Imagenes/ciudades_violentas.png" width="850">
 </p>
 
----
+
 
 ### Principales causas de muerte
 
@@ -121,10 +119,10 @@ Uno de los hallazgos más relevantes es el predominio de enfermedades crónicas 
 Asimismo, la diferencia entre la primera causa y las demás refleja una concentración importante de muertes relacionadas con enfermedades pulmonares obstructivas crónicas, evidenciando el impacto de problemas respiratorios dentro de la salud pública.
 
 <p align="center">
-  <img src="imagenes/causas_muerte.png" width="850">
+  <img src="Imagenes/causas_muertes.png" width="850">
 </p>
 
----
+
 
 ### Sexo por departamento
 
@@ -135,10 +133,9 @@ En la mayoría de los departamentos se observa una mayor cantidad de muertes mas
 El principal hallazgo de esta representación es la existencia de una sobremortalidad masculina generalizada, acompañada de importantes diferencias territoriales.
 
 <p align="center">
-  <img src="imagenes/sexo_departamento.png" width="850">
+  <img src="Imagenes/sexo_departamento.png" width="850">
 </p>
 
----
 
 ### Distribución por grupo de edad
 
@@ -149,10 +146,10 @@ La visualización evidencia una concentración extremadamente alta de muertes en
 El principal hallazgo del gráfico es la fuerte relación entre envejecimiento y mortalidad, demostrando que las defunciones aumentan de manera significativa conforme avanza la edad.
 
 <p align="center">
-  <img src="imagenes/grupo_edad.png" width="850">
+  <img src="Imagenes/grupo_edad.png" width="850">
 </p>
 
----
+
 
 ### Ciudades con menor mortalidad
 
@@ -163,7 +160,7 @@ Las proporciones observadas son relativamente similares entre las ciudades selec
 El principal hallazgo del gráfico es que las ciudades con menor mortalidad mantienen niveles bastante homogéneos entre sí, posiblemente asociados a menor densidad poblacional y características demográficas particulares.
 
 <p align="center">
-  <img src="imagenes/menor_mortalidad.png" width="850">
+  <img src="Imagenes/menor_mortalidad.png" width="850">
 </p>
 
 ---

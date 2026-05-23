@@ -29,7 +29,7 @@ def mostrar_app(df, divipola, causas):
             " Causas",
             " Sexo por departamento",
             " Edad",
-            " datos"
+            " Datos"
         ]
     )
 
@@ -61,7 +61,6 @@ def mostrar_app(df, divipola, causas):
         st.write("")
         st.subheader("Fundamento del estudio")
         st.write("El fundamento de este estudio se basa en el análisis de datos oficiales de mortalidad en Colombia obtenidos a partir de las bases de datos del DANE, incluyendo registros de defunciones no fetales, códigos de causas de muerte y la división político-administrativa del país (DIVIPOLA). A través de estos archivos en formato Excel, se realizó un proceso de organización, limpieza y visualización de la información para identificar patrones de mortalidad según variables como sexo, edad, departamento, ciudad y causas de fallecimiento durante el año 2019. El objetivo principal es facilitar la interpretación de los datos estadísticos mediante gráficos e indicadores interactivos que permitan comprender mejor el comportamiento de la mortalidad a nivel nacional.")
-        st.write("")
         st.write("---------------------------------------------------------------------------------------------------------------------------------------------------")
         
         col1, col2, col3 = st.columns(3)
