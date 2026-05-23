@@ -16,11 +16,7 @@ def mostrar_app(df, divipola, causas):
     </style>
     """, unsafe_allow_html=True)
 
-    st.markdown("""
-    <h1 style='text-align: center; color: #003366;'>
-    📊 Análisis de Mortalidad en Colombia - 2019
-    </h1>
-    """, unsafe_allow_html=True)
+    
 
     st.sidebar.markdown("## 📌 Navegación")
 
@@ -60,29 +56,36 @@ def mostrar_app(df, divipola, causas):
         st.info("Fuente: DANE")
 
     elif opcion == "📈 Total de muertes por mes":
+        st.subheader("📈 Total de muertes por mes")
         fig = grafico_lineas(df_filtrado)
         st.plotly_chart(fig, use_container_width=True)
 
     elif opcion == "🗺️ Total de muertes por departamento":
+        st.subheader("🗺️ Total de muertes por departamento")
         fig = mapa_departamentos(df_filtrado, divipola)
         st.plotly_chart(fig, use_container_width=True)
 
     elif opcion == "🔫 Ciudades más violentas":
+        st.subheader("🔫 Ciudades más violentas")
         fig = ciudades_mas_violentas(df_filtrado, divipola)
         st.plotly_chart(fig, use_container_width=True)
 
     elif opcion == "☠️ Causas":
+        st.subheader("☠️ Causas")
         fig = top_causas(df_filtrado, causas)
         st.plotly_chart(fig, use_container_width=True)
 
     elif opcion == "⚖️ Sexo por departamento":
+        st.subheader("⚖️ Sexo por departamento")
         fig = muertes_sexo_departamento(df_filtrado, divipola)
         st.plotly_chart(fig, use_container_width=True)
 
     elif opcion == "👶 Edad":
+        st.subheader("👶 Edad")
         fig = muertes_por_edad(df_filtrado)
         st.plotly_chart(fig, use_container_width=True)
 
     elif opcion == "🥧 Ciudades menor mortalidad":
+        st.subheader("🥧 Ciudades menor mortalidad")
         fig = ciudades_menor_mortalidad(df_filtrado, divipola)
         st.plotly_chart(fig, use_container_width=True)
