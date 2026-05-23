@@ -66,3 +66,104 @@ streamlit run streamlit_app.py --server.port 8000 --server.address 0.0.0.0
 
 ```
 ---
+## Visualizaciones e interpretación de resultados
+
+La aplicación web incorpora múltiples visualizaciones interactivas diseñadas para facilitar el análisis de la mortalidad desde diferentes perspectivas estadísticas, territoriales y demográficas. Cada gráfico transforma grandes volúmenes de datos en representaciones visuales comprensibles, permitiendo identificar tendencias, concentraciones y patrones relevantes dentro del comportamiento de las defunciones.
+
+---
+
+### Total de muertes por mes
+
+El gráfico de líneas representa la variación mensual del total de muertes registradas, permitiendo analizar la evolución temporal de la mortalidad y reconocer cambios significativos a lo largo del año. En la visualización se observa una disminución importante al inicio del periodo, seguida de una recuperación progresiva en los meses posteriores. Hacia la mitad del año se evidencia un incremento sostenido que supera los 21 mil casos, mientras que en los últimos meses vuelve a presentarse un ascenso considerable, alcanzando el punto más alto del gráfico.
+
+Desde una perspectiva analítica, este comportamiento demuestra que la mortalidad no mantiene una distribución uniforme durante el año, sino que presenta fluctuaciones temporales asociadas posiblemente a factores epidemiológicos, condiciones climáticas o variaciones sociales. El principal hallazgo de esta representación es la existencia de meses con una carga de mortalidad considerablemente mayor, lo que permite identificar periodos críticos dentro del análisis general.
+
+<p align="center">
+  <img src="imagenes/muertes_mes.png" width="850">
+</p>
+
+---
+
+### Total de muertes por departamento
+
+El mapa coroplético permite visualizar la distribución territorial de las muertes por departamento en Colombia. La escala de colores utilizada facilita la interpretación geográfica de los datos, donde los departamentos en color blanco representan la mayor intensidad de mortalidad y los tonos azul oscuro corresponden a menores concentraciones de muertes.
+
+La representación espacial evidencia que la mortalidad no se distribuye de manera homogénea en el territorio nacional. Los departamentos con mayor intensidad coinciden principalmente con regiones altamente pobladas y con importantes centros urbanos, mientras que otros territorios presentan valores considerablemente menores.
+
+El hallazgo principal del mapa es la fuerte concentración territorial de las defunciones en determinados departamentos, lo cual evidencia desigualdades regionales relacionadas con densidad poblacional, urbanización y acceso a servicios de salud.
+
+<p align="center">
+  <img src="imagenes/mapa_departamentos.png" width="850">
+</p>
+
+---
+
+### Ciudades más violentas
+
+El gráfico de barras presenta las cinco ciudades con mayor número de homicidios asociados a agresiones mediante arma de fuego, permitiendo identificar los territorios urbanos con mayores problemáticas de violencia letal.
+
+Dentro de los resultados, Santiago de Cali aparece como la ciudad con el mayor número de homicidios, alcanzando aproximadamente 970 casos, seguida por Bogotá D.C., Medellín, Barranquilla y San José de Cúcuta. La diferencia entre Cali y las demás ciudades resulta significativamente amplia, lo que evidencia una fuerte concentración de violencia homicida en este territorio.
+
+La visualización permite concluir que la violencia no afecta de manera uniforme a las ciudades del país, sino que se concentra principalmente en determinados centros urbanos donde convergen problemáticas relacionadas con criminalidad, inseguridad y conflictividad social.
+
+<p align="center">
+  <img src="imagenes/ciudades_violentas.png" width="850">
+</p>
+
+---
+
+### Principales causas de muerte
+
+La tabla de causas de muerte reúne las diez principales causas de defunción y permite identificar cuáles enfermedades o condiciones presentan mayor impacto dentro de la mortalidad general.
+
+Uno de los hallazgos más relevantes es el predominio de enfermedades crónicas y cardiovasculares, ya que varias de las principales causas están relacionadas con afecciones respiratorias, hipertensión y enfermedades cardíacas o renales. Esto demuestra que una parte significativa de las defunciones se encuentra asociada a enfermedades no transmisibles y de larga duración.
+
+Asimismo, la diferencia entre la primera causa y las demás refleja una concentración importante de muertes relacionadas con enfermedades pulmonares obstructivas crónicas, evidenciando el impacto de problemas respiratorios dentro de la salud pública.
+
+<p align="center">
+  <img src="imagenes/causas_muerte.png" width="850">
+</p>
+
+---
+
+### Sexo por departamento
+
+El gráfico de barras apiladas compara el total de muertes entre hombres y mujeres en cada departamento, permitiendo analizar diferencias de mortalidad según el sexo y la región.
+
+En la mayoría de los departamentos se observa una mayor cantidad de muertes masculinas frente a las femeninas, aunque la magnitud de esta diferencia varía dependiendo del territorio analizado. Los departamentos con mayor volumen de defunciones corresponden principalmente a Antioquia, Bogotá D.C. y Valle del Cauca, mientras que regiones como Vaupés, Vichada, Guainía y Amazonas presentan niveles considerablemente menores.
+
+El principal hallazgo de esta representación es la existencia de una sobremortalidad masculina generalizada, acompañada de importantes diferencias territoriales.
+
+<p align="center">
+  <img src="imagenes/sexo_departamento.png" width="850">
+</p>
+
+---
+
+### Distribución por grupo de edad
+
+El histograma de distribución por grupo de edad muestra cómo se concentran las muertes en las diferentes etapas del ciclo de vida, permitiendo identificar cuáles grupos etarios presentan mayor vulnerabilidad.
+
+La visualización evidencia una concentración extremadamente alta de muertes en el grupo de vejez, superando ampliamente los demás rangos de edad. Posteriormente aparecen longevidad y adultez intermedia, mientras que las categorías asociadas a infancia y juventud presentan cantidades considerablemente menores.
+
+El principal hallazgo del gráfico es la fuerte relación entre envejecimiento y mortalidad, demostrando que las defunciones aumentan de manera significativa conforme avanza la edad.
+
+<p align="center">
+  <img src="imagenes/grupo_edad.png" width="850">
+</p>
+
+---
+
+### Ciudades con menor mortalidad
+
+El gráfico circular representa las ciudades con menor índice de mortalidad, permitiendo comparar visualmente la participación relativa de cada una dentro del conjunto analizado.
+
+Las proporciones observadas son relativamente similares entre las ciudades seleccionadas, lo que indica una distribución equilibrada dentro del grupo con menor cantidad de defunciones. Este comportamiento sugiere que dichos territorios presentan una participación reducida dentro del total nacional de muertes.
+
+El principal hallazgo del gráfico es que las ciudades con menor mortalidad mantienen niveles bastante homogéneos entre sí, posiblemente asociados a menor densidad poblacional y características demográficas particulares.
+
+<p align="center">
+  <img src="imagenes/menor_mortalidad.png" width="850">
+</p>
+
+---
